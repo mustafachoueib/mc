@@ -1,0 +1,70 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/09/2019 02:33
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-sport:before { content: "\f100"; }
+.flaticon-project:before { content: "\f101"; }
+.flaticon-open-book:before { content: "\f102"; }
+.flaticon-future:before { content: "\f103"; }
+.flaticon-c-logo-1:before { content: "\f104"; }
+.flaticon-facebook-logo-button:before { content: "\f105"; }
+.flaticon-linkedin:before { content: "\f106"; }
+.flaticon-github-logo:before { content: "\f107"; }
+.flaticon-python:before { content: "\f108"; }
+.flaticon-c-logo:before { content: "\f109"; }
+.flaticon-copyright:before { content: "\f10a"; }
+.flaticon-java:before { content: "\f10b"; }
+.flaticon-java-script:before { content: "\f10c"; }
+.flaticon-html-5-logo:before { content: "\f10d"; }
+.flaticon-css:before { content: "\f10e"; }
+    
+    $font-Flaticon-sport: "\f100";
+    $font-Flaticon-project: "\f101";
+    $font-Flaticon-open-book: "\f102";
+    $font-Flaticon-future: "\f103";
+    $font-Flaticon-c-logo-1: "\f104";
+    $font-Flaticon-facebook-logo-button: "\f105";
+    $font-Flaticon-linkedin: "\f106";
+    $font-Flaticon-github-logo: "\f107";
+    $font-Flaticon-python: "\f108";
+    $font-Flaticon-c-logo: "\f109";
+    $font-Flaticon-copyright: "\f10a";
+    $font-Flaticon-java: "\f10b";
+    $font-Flaticon-java-script: "\f10c";
+    $font-Flaticon-html-5-logo: "\f10d";
+    $font-Flaticon-css: "\f10e";
