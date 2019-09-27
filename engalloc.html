@@ -74,14 +74,14 @@
         <p>The input is a text file containing; student id, first name, last name, gender, gpa, [stream 1, stream 2, stream 3], and true/false (free choice). The program reads through this text file and creates a tuple containing the information of a student.</p>
         <p>Using the lambda function, the program will determine all the students who are eligible for free choice and have a gpa >= 4.0 (on a 12 point scale). It will give them priority when allocating students into their stream (Assumption: There will be a guaranteed spot for free choice students regardless of department capacity).</p>
         <br>
-        <p>This is the student information that is used during testing: <img src="images/allocinit.png" alt="configuration"></p>
+        <p>This is the student information that is used during testing: <img src="images/allocinit.PNG" alt="configuration"></p>
         <p>There are 7 test students with their first name, last name, gender, gpa, top choice streams (all students were made to want software as their first choice stream), and whether they have free choice or not.</p>
         <br>
-        <p>This is how the program determines the result and which students have free choice: <img src="images/engalloc2.png" alt="test"></p>
+        <p>This is how the program determines the result and which students have free choice: <img src="images/engalloc2.PNG" alt="test"></p>
         <p>The use of the lambda function is to return a list of all of the students who had free choice ("True" at the end of their student information).</p>
         <br>
         <p>The following is the result of the allocation with the configurations above: </p>
-        <p><img src="images/engalloc3.png" alt="results"></p>
+        <p><img src="images/engalloc3.PNG" alt="results"></p>
         <br>
         <p>As you can see, despite students 3, 4, and 5 having a higher gpa than student 7, student 7 was accepted into the Software stream due to free choice. Students 3, 4, and 5 were allocated to their second choice stream; chemical. For student 6, since he did not have free choice and the other two departments had reached their maximum capacities, he was allocated into the next available stream he was eligible for (materials).</p>
         <br>
