@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mustafa's Personal Site</title>
+    <title>Mustafa's Personal Website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,146 +48,40 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/projects.png');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url(images/.PNG);" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate pb-5">
             <h1 class="mb-3 bread"></h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>My Projects <i class="ion-ios-arrow-forward"></i></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span><a href="myprojects.html"> My Projects </a><i class="ion-ios-arrow-forward"></i><a href="rps.html"> Forty Thieves</a></span></p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-3">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Click to learn more about a specific project</span>
-            <h2 class="mb-4"><span>My</span> Projects</h2>
+            <span class="subheading"></span>
+            <h2 class="mb-4"><span></span></span>Rock, Paper, Scissors</h2>
           </div>
         </div>
-        <div class="row">
-        	<div class="col-md-12 ftco-animate">
-        		<div class="carousel-testimony owl-carousel">
-        			<div class="item">
-        				<div class="speaker">
-			        		<img src="images/td.png" class="img-fluid" alt="Colorlib HTML5 Template">
-			        		<div class="text text-center py-3">
-			        			<h3>ThreatDetect</h3>
-			        			<span class="position">Java</span>
-			        			<ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='threat.html';" value="Learn More"/>
-			              </ul>
-			        		</div>
-			        	</div>
-        			</div>
-
-        			<div class="item">
-        				<div class="speaker">
-			        		<img src="images/cgol.png" class="img-fluid" alt="Colorlib HTML5 Template">
-			        		<div class="text text-center py-3">
-			        			<h3>Conway's Game of Life</h3>
-			        			<span class="position">C++</span>
-			        			<ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='cgol.html';" value="Learn More"/>
-			              </ul>
-			        		</div>
-			        	</div>
-        			</div>
-
-        			<div class="item">
-        				<div class="speaker">
-			        		<img src="images/forty.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-			        		<div class="text text-center py-3">
-			        			<h3>Forty Thieves Card Game</h3>
-			        			<span class="position">C++</span>
-			        			<ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='forty.html';" value="Learn More"/>
-			              </ul>
-			        		</div>
-			        	</div>
-        			</div>
-
-        			<div class="item">
-        				<div class="speaker">
-			        		<img src="images/eng.png" class="img-fluid" alt="Colorlib HTML5 Template">
-			        		<div class="text text-center py-3">
-			        			<h3>Engineering Allocation Program</h3>
-			        			<span class="position">Python</span>
-			        			<ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='myprojects.html';" value="Learn More"/>
-			              </ul>
-			        		</div>
-			        	</div>
-        			</div>
-
-        			<div class="item">
-        				<div class="speaker">
-			        		<img src="images/rps.png" class="img-fluid" alt="Colorlib HTML5 Template">
-			        		<div class="text text-center py-3">
-			        			<h3>Rock, Paper, Scissors</h3>
-			        			<span class="position">C#</span>
-			        			<ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='rps.html';" value="Learn More"/>
-			              </ul>
-			        		</div>
-			        	</div>
-        			</div>
-
-              <div class="item">
-                <div class="speaker">
-                  <img src="images/mutation.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-                  <div class="text text-center py-3">
-                    <h3>Image Mutation</h3>
-                    <span class="position">C</span>
-                    <ul class="ftco-social mt-3">
-                    <input type="button" onclick="location.href='mutation.html';" value="Learn More"/>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        		</div>
-        	</div>
-        </div>
-    	</div>
+        <p>Forty Thieves is a variation of the classic solitaire with slight modifications to the original rules. This game is played with two decks of cards and all jokers removed. At the beginning, 40 cards are dealt face-up in 10 columns (tableaus). You are only able to move cards one by one, and when a tableau is empty, you can place any card there. There is also a waste pile (you can only filter through this pile once), and eight foundations.</p>
+        <p>The goal of the game is to move all decks from the tableau to the foundation (starting from ace, all the way to king of the same suit).</p>
+        <p>This program is the backend code for this game. I created this program using C++ for a Software Design course. What this program does, is determines important information on a current game's state.</p>
+        <p>The things that the program determines includes; any possible moves from tableau to tableau, tableau to foundation, waste to tableau, current game state, whether the game is impossible to win, and whether the game has been won.</p>
+        <p>When testing, vectors, which held the decks, were filled with all the cards in a deck twice. After the two decks were created, the game was dealt randomly and a few moves were done. This was done in order to test out whether the program would actually determine the correct information about the current game state.</p>
+        <p>This is what it looked like filling the two decks: <img src="images/fortyinit.png" alt="initialize"></p>
+        <p>This is how various moves were done: <img src="fortytest.png" alt="test"></p>
+        <br>
+        <br>
+        <p>Here, we have the result of running the program on the current game state: <img src="fortyresult.png" alt="result"></p>
+        <p>This project was a very vital in my software development. During this project, I was able to better understand the use of makefiles and how efficient they could be when creating a program with a large amount of files.</p>
+        <p>All source code available upon request.</p>
+      </div>
     </section>
-    <section class="ftco-gallery">
-    	<div class="container-wrap">
-    		<div class="row no-gutters">
-					<div class="col-md-3">
-						<a href="" class="" style="background-image: url();">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class=""></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="" style="background-image: url();">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class=""></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="" style="background-image: url();">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class=""></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="" style="background-image: url();">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class=""></span>
-    					</div>
-						</a>
-					</div>
-        </div>
-    	</div>
-    </section>
-
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
