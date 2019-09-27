@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mustafa's Personal Website</title>
+    <title>Mustafa's Personal Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,37 +48,45 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/rpsb.png');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/imb.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate pb-5">
             <h1 class="mb-3 bread"></h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span><a href="myprojects.html"> My Projects </a><i class="ion-ios-arrow-forward"></i><a href="rps.html"> Rock, Paper, Scissors</a></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span><a href="myprojects.html"> My Projects </a><i class="ion-ios-arrow-forward"></i><a href="engalloc.html"> Engineering Allocation</a></span></p>
           </div>
         </div>
       </div>
     </section>
 
+
+
     <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading"></span>
-            <h2 class="mb-4"><span></span></span>Rock, Paper, Scissors</h2>
+          	<span class="subheading"></span>
+            <h2 class="mb-4"><span></span></span>Engineering Allocation Program</h2>
           </div>
         </div>
-        <p>This is a basic game of Rock, Paper, Scissors that was completed in C#. I attempted this in my early stages of learning C# essentially to test my understanding of the language at that point. This program is a console application, but fully functioning.</p>
-        <p>Essentially, this quick project helped develop my understanding for switch cases and how they are used in C#.</p>
-        <p>The program will ask you for a score limit, and then you will pick between rock, paper and scissors. The computer's pick will be determined completely at random, and score will be displayed after every round. First to reach the score limit wins!</p>
-        <p align="center"><img src="images/rps1.PNG" alt="initial"></p>
-        <p align="center"><img src="images/rps2.PNG" alt="midgame"></p>
-        <p align="center"><img src="images/rps3.PNG" alt="Win"></p>
-        <br>
-        <br>
-        <p>All source code available upon request.</p>
+        <p>This program was completed in Python for a Software Design course. Ultimately, the purpose of this program is to allocate engineering students into specific streams based on a few conditions (GPA, department capacity, and free choice elegibility).</p>
+        <p>The input is a text file containing; student id, first name, last name, gender, gpa, [stream 1, stream 2, stream 3], and true/false (free choice). The program reads through this text file and creates a tuple containing the information of a student.</p>
+        <p>Using the lambda function, the program will determine all the students who are eligible for free choice and have a gpa >= 4.0 (on a 12 point scale). It will give them priority when allocating students into their stream (Assumption: There will be a guaranteed spot for free choice students regardless of department capacity).</p>
+
       </div>
     </section>
+
+        <section class="ftco-section">
+        	<div class="container">
+        		<div class="row justify-content-center mb-5 pb-3">
+              <div class="col-md-7 text-center heading-section ftco-animate">
+              	<span class="subheading"></span>
+                <h2 class="mb-4"><span></span></span></h2>
+              </div>
+            </div>
+          </div>
+        </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
