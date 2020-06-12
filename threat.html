@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
+    <link rel="stylesheet" type="text/css" href="css/tn3/tn3.css" />
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
+
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -71,7 +75,50 @@
           <p>After thorough testing, it was determined that the graphical user interface (GUI) increased the overal time complexity of the application. Hence, we decided to make the GUI optional, and included a console based application as well. The console based application displayed all the information onto the console as well as a text file that is returned as output.</p>
           <br>
           <p>The following is an example of how the console application ran: </p>
-          <p><img src="images/threat1.PNG" alt="Threat1"> <img src="images/threat2.PNG" alt="threat2"> <img src="images/threat3.PNG" alt="threat3"></p>
+
+
+          <div class="example">
+              <h4 align="center"><b>Examples of the output produced by ThreatDetect.</b></h4>
+
+              <div class="tn3gallery"><!-- TN3Gallery -->
+                  <div class="tn3 album">
+
+                      <h4>Example 1</h4>
+                      <div class="tn3 description">In this example, there is a given address with a 5KM radius. The output is shown.</div>
+                      <div class="tn3 thumb">images/threat1.png</div>
+
+                      <ol>
+                          <li>
+                              <h4>Example 1</h4>
+                              <div class="tn3 description">In this example, there is a given address with a 5KM radius. The output is shown.</div>
+                              <a href="images/threat1.png">
+                              <img src="images/threat1.PNG"/>
+                              </a>
+                          </li>
+                          <li>
+                              <h4>Example 2</h4>
+                              <div class="tn3 description">This is the same address as the previous example, however, the radius is now 20KM.</div>
+                              <a href="images/threat2.png">
+                              <img src="images/threat2.png" />
+                              </a>
+                          </li>
+                          <li>
+                              <h4>Example 3</h4>
+                              <div class="tn3 description">This shows the final portion of the output for example 2.</div>
+                              <a href="images/threat3.png">
+                              <img src="images/threat3.png" />
+                              </a>
+                          </li>
+                          <li>
+
+                      </ol>
+                  </div>
+              </div>
+          </div>
+
+
+
+
           <p>As you can see from the pictures, upon increasing the radius, the number of incidents also increased. A final threat level is also determined through a formula that was devised by the group. This application manages to search and sort hundreds of thousands of data entries in mere seconds through the optimized use of a Red-Black BST and quick sort.</p>
           <p>This is one of my favourite projects as I greatly enhanced my understanding of important data structures, algorithms, and importance of time complexity.</p>
         </div>
@@ -143,6 +190,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.tn3lite.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
 
   </body>
 </html>

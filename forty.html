@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
 
+    <link rel="stylesheet" type="text/css" href="css/tn3/tn3.css" />
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
+
+
+
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
@@ -73,11 +78,50 @@
         <p>This program is the backend code for this game. I created this program using C++ for a Software Design course. What this program does, is determines important information on a current game's state.</p>
         <p>The things that the program determines includes; any possible moves from tableau to tableau, tableau to foundation, waste to tableau, current game state, whether the game is impossible to win, and whether the game has been won.</p>
         <p>When testing, vectors, which held the decks, were filled with all the cards in a deck twice. After the two decks were created, the game was dealt randomly and a few moves were done. This was done in order to test out whether the program would actually determine the correct information about the current game state.</p>
-        <p>This is what it looked like filling the two decks: <img src="images/fortyinit.png" alt="initialize"></p>
-        <p>This is how various moves were done: <img src="images/fortytest.png" alt="test"></p>
+
+        <div class="example">
+            <h4 align="center"><b>Examples of the Application.</b></h4>
+
+            <div class="tn3gallery"><!-- TN3Gallery -->
+                <div class="tn3 album">
+
+                    <h4>Image 1 title</h4>
+                    <div class="tn3 description">Image 1 description</div>
+                    <div class="tn3 thumb">images/thumb_pic1.jpg</div>
+
+                    <ol>
+                        <li>
+                            <h4>Filling the two decks</h4>
+                            <div class="tn3 description">This is how the 2 separate decks were filled up.</div>
+                            <a href="images/fortyinit.png">
+                            <img src="images/fortyinit.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <h4>Executing Moves</h4>
+                            <div class="tn3 description">This is how different moves were executed.</div>
+                            <a href="images/fortytest.png">
+                            <img src="images/fortytest.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <h4>Example of existing game</h4>
+                            <div class="tn3 description">This is an example of a current game state.</div>
+                            <a href="images/fortyresult.png">
+                            <img src="images/fortyresult.png" />
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <br>
         <br>
-        <p>Here, we have the result of running the program on the current game state: <img src="images/fortyresult.png" alt="result"></p>
         <p>This project was a very vital in my software development. During this project, I was able to better understand the use of makefiles and how efficient they could be when creating a program with a large amount of files.</p>
         <p>All source code available upon request. </p>
       </div>
@@ -149,6 +193,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.tn3lite.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+
 
   </body>
 </html>
